@@ -1,0 +1,51 @@
+# ==========================================
+# .NET / ASP.NET Core
+# ==========================================
+*.user
+*.userossc
+*.sln.docstates
+*.suo
+*.user
+*.vs/
+*.vstemplate
+*.userprefs
+bin/
+obj/
+Debug/
+Release/
+publish/
+[Ll]og/
+[Ll]ogs/
+*.seed
+*.db
+*.sqlite
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+# Segredos do usuário
+*secrets.json
+
+# ==========================================
+# Angular / Node / Front-end
+# ==========================================
+node_modules/
+dist/
+tmp/
+# Pasta específica do Angular CLI
+.angular/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Relatórios de cobertura de testes
+coverage/
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# ==========================================
+# Outros
+# ==========================================
+.DS_Store
+.env
